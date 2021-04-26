@@ -1,0 +1,31 @@
+* {
+	font: Arial;
+}
+
+body {
+	background-color: #353535;
+}
+
+main {
+	width: 600px;
+	height: 450px;
+	padding: 10px;
+	background-color: white;
+	margin: auto;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px #7d7d7d;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(76, 93, 207);
+}
+
+p {
+	color: black;
+}
+
+.introduction {
+	color: black;
+	text-align: center
+}
