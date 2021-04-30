@@ -6,10 +6,10 @@ body {
 	background-color: #353535;
 }
 
-main {
-	width: 600px;
-	height: 370px;
-	padding: 10px;
+.container {
+	width: auto;
+	height: auto;
+	padding: 5px;
 	background-color: white;
 	margin: auto;
 	border-radius: 15px;
