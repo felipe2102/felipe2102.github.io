@@ -16,6 +16,10 @@ body {
 	box-shadow: 5px 5px 10px #7d7d7d;
 }
 
+.container footer {
+	line-height: 30px;
+}
+
 h1 {
 	text-align: center;
 	color: rgb(76, 93, 207);
