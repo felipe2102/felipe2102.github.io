@@ -18,8 +18,14 @@ body {
 
 h1 {
 	text-align: center;
+	color: rgb(76, 93, 207);
 }
 
 p {
 	color: black;
+}
+
+.introduction {
+	color: black;
+	text-align: center
 }
