@@ -73,12 +73,35 @@ header {
 
 #home{
 	font-size: 24px;
+	line-height: 23px;
 	margin: 10px;
 	color: white;
-	align-items: center;
+	align-items: left;
 	text-decoration: none;
 	padding: 0px 3px;
-	display: block;
+	display: inline-block;
+}
+
+.fa-icon {
+	font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+	#home {
+		font-size: 21px;
+		line-height: 24px;
+		margin: 8px;
+		margin-top: 2px;
+
+	}
+
+	header {
+		height: 69px;
+	}
+
+	.fa-icon {
+		font-size: 25px
+	}
 }
 
 #menu ul {
@@ -137,11 +160,12 @@ header, #menu, #menu ul{
 	left: 50%;
 	transform: translate(-50%,-50%);
 	width: 200px;
-	height: 60px;
+	height: 80px;
+	max-height: 13%;
 	text-align: center;
-	line-height: 60px;
+	line-height: 80px;
 	color: #fff;
-	font-size: 24px;
+	font-size: 28px;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: sans-serif;
