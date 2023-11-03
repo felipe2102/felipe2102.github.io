@@ -1,6 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
-    color: aliceblue;
+    color: white;
 }
 
 body {
@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
     display: none;
   }
 
-/* Navigation Bar */
+/* Navigation Bar
 
 .topnav {
     overflow: hidden;
@@ -37,13 +37,14 @@ body::-webkit-scrollbar {
 .topnav a.active {
     background-color: #1f4a95;
     color: white;
-}
+} */
 
 /* Primary content */
 
 .content {
     width: 100vw;
-    height: calc(100vh - 43px);
+    /* height: calc(100vh - 43px); */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +60,7 @@ body::-webkit-scrollbar {
 .content img {
     width: 200px;
     border-radius: 100%;
-    border: 5px solid blanchedalmond;
+    border: 5px solid #584e99;
 }
 
 .content h1 {
@@ -82,6 +83,6 @@ body::-webkit-scrollbar {
     margin-right: 5px;
 }
 
-.fa-brands {
+.fa-icon {
     font-size: 45px;
 }
