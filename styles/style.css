@@ -7,6 +7,12 @@ body {
     margin: 0;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    background-image: url('/resources/background.jpg');
+    background-color: rgba(0, 0, 0, 0.12);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 body::-webkit-scrollbar {
@@ -41,7 +47,7 @@ body::-webkit-scrollbar {
 
 /* Primary content */
 
-.content {
+.content section{
     width: 100vw;
     /* height: calc(100vh - 43px); */
     height: 100vh;
@@ -49,12 +55,6 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('/resources/background.gif');
-    background-color: rgba(0, 0, 0, 0.12);
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-position: center center;
   }
 
 .content img {
