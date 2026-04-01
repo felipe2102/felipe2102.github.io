@@ -7,8 +7,6 @@ body {
     margin: 0;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    background-color: #181825;
-    scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
@@ -50,29 +48,20 @@ body::-webkit-scrollbar {
 /* Primary content */
 
 .content {
-    display: grid;
-    place-items: center;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181825;
+;
     padding-top: 80px;
 }
 
 .content h1 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
-input, select, option, textarea {
-    color: black;
-    margin: 10px;
-    max-width: 300px;
-    max-height: 300px;
-    border: 3px solid rgb(105, 22, 22);
+.content p {
+    font-size: 25px;
 }
-
-form {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-}
-  
-label, input, textarea{
-    margin-bottom: 10px;
-  }
