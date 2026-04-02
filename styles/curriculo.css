@@ -58,9 +58,15 @@ body::-webkit-scrollbar {
 }
 
 .content h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .content p {
     font-size: 25px;
+}
+
+.content img {
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid #584e99;
 }
