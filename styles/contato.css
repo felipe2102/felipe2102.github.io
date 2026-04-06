@@ -43,8 +43,8 @@ body::-webkit-scrollbar {
 }
   
 .topnav a.active {
-    background-color: #1f4a95;
-    color: white;
+    background-color: #89b4fa;
+    color: #11111b;
 }
 
 /* Primary content */
