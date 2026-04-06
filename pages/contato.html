@@ -19,16 +19,36 @@
         <h1>Contato</h1>
         <form action="#">
             <div>
-                <label for="nome">Insira seu nome aqui:</label>
+                <label for="nome">Insira seu nome:</label>
                 <input type="text" name="Nome" id="nome">
             </div>
             <div>
-                <label for="numero">Insira seu número aqui:</label>
+                <label for="numero">Insira seu número de telefone:</label>
                 <input type="tel" name="Numero" id="numero">
             </div>
             <div>
                 <label for="email">Insira seu Email:</label>
                 <input type="email" name="Email" id="email">
+            </div>
+            <div>
+                <p>É Pessoa Física ou Jurídica?</p>
+                <input type="radio" name="pf" id="radio-pf">
+                <label for="radio-pf">Pessoa Física</label>
+                <input type="radio" name="pj" id="radio-pj">
+                <label for="radio-pj">Pessoa Jurídica</label>
+            </div>
+            <div>
+                <p>Melhor horário de contato:</p>
+                <input type="time" name="horario" id="input-horario">
+            </div>
+            <div>
+                <p>Tipo de serviço:</p>
+                <select name="servico" id="select-servico">
+                    <option value="lp-small">Site Estático com 1 a 2 páginas</option>
+                    <option value="lp-medium">Site Estático com 3 a 5 páginas</option>
+                    <option value="lp-big">Site Estático com mais de 5 páginas</option>
+                    <option value="dp">Site Dinâmico</option>
+                </select>
             </div>
             <div>
                 <p>Insira uma descrição detalhada do serviço:</p>
