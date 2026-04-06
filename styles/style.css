@@ -13,9 +13,11 @@ body {
 
 body::-webkit-scrollbar {
     display: none;
-  }
+}
 
-h1, #subtitle, i {
+h1,
+#subtitle,
+i {
     color: white;
 }
 
@@ -23,7 +25,7 @@ h1, #subtitle, i {
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #181825;
     width: fit-content;
     border-radius: 15px;
     position: fixed;
@@ -31,7 +33,7 @@ h1, #subtitle, i {
     left: 50%;
     transform: translateX(-50%);
 }
-  
+
 .topnav a {
     display: inline-flex;
     color: #cdd6f4;
@@ -39,12 +41,12 @@ h1, #subtitle, i {
     text-decoration: none;
     font-size: 14px;
 }
-  
+
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
-  
+
 .topnav a.active {
     background-color: #89b4fa;
     color: #11111b;
@@ -52,7 +54,7 @@ h1, #subtitle, i {
 
 /* Primary content */
 
-.content #presentation{
+.content #presentation {
     width: 100vw;
     height: calc(100vh - 70px);
     display: flex;
@@ -65,9 +67,9 @@ h1, #subtitle, i {
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center center;
-  }
+}
 
-.content  #presentation img {
+.content #presentation img {
     width: 200px;
     border-radius: 100%;
     border: 5px solid #584e99;
@@ -98,4 +100,26 @@ h1, #subtitle, i {
 
 .fa-icon {
     font-size: 45px;
+}
+
+.content #myself {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content #myself {
+    padding: 40px 0;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
 }
