@@ -1,6 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: #cdd6f4;
     scrollbar-width: none;
 }
 
@@ -14,6 +14,10 @@ body {
 body::-webkit-scrollbar {
     display: none;
   }
+
+h1, #subtitle, i {
+    color: white;
+}
 
 /* Navigation Bar */
 
@@ -30,7 +34,7 @@ body::-webkit-scrollbar {
   
 .topnav a {
     display: inline-flex;
-    color: #f2f2f2;
+    color: #cdd6f4;
     padding: 13px 13px;
     text-decoration: none;
     font-size: 14px;
