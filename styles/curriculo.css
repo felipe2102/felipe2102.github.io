@@ -17,8 +17,7 @@ body::-webkit-scrollbar {
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
-    margin-top: 15px;
+    background-color: #181825;
     width: fit-content;
     border-radius: 15px;
     position: fixed;
@@ -26,23 +25,39 @@ body::-webkit-scrollbar {
     left: 50%;
     transform: translateX(-50%);
 }
-  
+
 .topnav a {
     display: inline-flex;
     color: #cdd6f4;
-    padding: 13px 12px;
+    padding: 13px 13px;
     text-decoration: none;
     font-size: 14px;
 }
-  
+
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
-  
+
 .topnav a.active {
     background-color: #89b4fa;
     color: #11111b;
+}
+
+@media (max-width: 767px) {
+    .topnav {
+        width: 90%;
+        margin-top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .topnav a {
+        display: block;
+        padding: 10px 0;
+        font-size: 13px;
+    }
 }
 
 /* Primary content */

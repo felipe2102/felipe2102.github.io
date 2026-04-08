@@ -77,7 +77,7 @@ i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('/resources/background.jpg');
+    background-image: url('/resources/background.gif');
     background-color: rgba(0, 0, 0, 0.12);
     background-size: cover;
     background-blend-mode: multiply;
