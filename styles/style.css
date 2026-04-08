@@ -52,6 +52,15 @@ i {
     color: #11111b;
 }
 
+@media (max-width: 600px) {
+    .topnav {
+        width: 85%;
+    }
+    .topnav a {
+        padding: 10px;
+    }
+}
+
 /* Primary content */
 
 .content #presentation {
