@@ -52,12 +52,19 @@ i {
     color: #11111b;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .topnav {
-        width: 85%;
+        width: 90%;
+        margin-top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
     }
+
     .topnav a {
-        padding: 10px;
+        display: block;
+        padding: 10px 0;
+        font-size: 13px;
     }
 }
 
