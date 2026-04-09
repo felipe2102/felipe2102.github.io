@@ -1,3 +1,6 @@
+
+/* General */
+
 * {
     font-family: 'Roboto', sans-serif;
     color: #cdd6f4;
@@ -16,7 +19,7 @@ body::-webkit-scrollbar {
 /* Navigation Bar */
 
 .topnav {
-    overflow: hidden;
+    overflow: auto;
     background-color: #181825;
     width: fit-content;
     border-radius: 15px;
@@ -59,7 +62,6 @@ body::-webkit-scrollbar {
         font-size: 13px;
     }
 }
-
 
 /* Primary content */
 

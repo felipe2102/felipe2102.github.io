@@ -1,3 +1,6 @@
+
+/* General */
+
 * {
     font-family: 'Roboto', sans-serif;
     color: #cdd6f4;
@@ -19,6 +22,15 @@ h1,
 #subtitle,
 i {
     color: white;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
 }
 
 /* Navigation Bar */
@@ -129,13 +141,4 @@ i {
     background: rgba(255, 255, 255, 0.03);
     padding: 20px;
     border-radius: 12px;
-}
-
-h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-p {
-    line-height: 1.6;
 }
