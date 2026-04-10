@@ -79,8 +79,8 @@ body::-webkit-scrollbar {
     font-size: 40px;
 }
 
-.content p {
-    font-size: 25px;
+.content h2 {
+    font-size: 22px;
 }
 
 .content img {

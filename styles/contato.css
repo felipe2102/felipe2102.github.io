@@ -23,18 +23,12 @@ input, select, option, textarea {
     margin: 10px;
     max-width: 300px;
     max-height: 300px;
-    border: 3px solid rgb(105, 22, 22);
-}
-
-form {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+    border: 3px solid #585b70;
 }
   
-label, input, textarea{
+label, input, textarea {
     margin-bottom: 10px;
-  }
+}
 
 /* Navigation Bar */
 
@@ -83,7 +77,6 @@ label, input, textarea{
     }
 }
 
-
 /* Primary content */
 
 .content {
@@ -93,15 +86,5 @@ label, input, textarea{
 }
 
 .content h1 {
-    font-size: 60px;
-}
-
-#myself {
-    width: 100%;
-}
-
-#myself h2,
-#myself h3 {
-    text-align: center;
-    width: 100%;
+    font-size: 45px;
 }
