@@ -109,8 +109,6 @@ p {
     margin-top: 10px;
     margin-bottom: 30px;
     text-shadow: 1px 1px 2px black;
-    color: #cdd6f4;;
-
 }
 
 .content #myself {
@@ -122,8 +120,8 @@ p {
     width: 100%;
 }
 
-#myself h2,
-#myself h3 {
+.content #myself h2,
+.content #myself h3 {
     text-align: center;
     width: 100%;
 }
