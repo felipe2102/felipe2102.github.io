@@ -96,7 +96,12 @@ label, input, textarea{
     font-size: 60px;
 }
 
-.content section{
-    border: 3px solid green;
+#myself {
+    width: 100%;
+}
 
+#myself h2,
+#myself h3 {
+    text-align: center;
+    width: 100%;
 }
