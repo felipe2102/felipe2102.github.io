@@ -31,7 +31,8 @@ p {
 
 .topnav {
     overflow: hidden;
-    background-color: #181825;
+    background-color: #18182599;
+    backdrop-filter: blur(8px);
     width: fit-content;
     border-radius: 15px;
     position: fixed;
@@ -60,7 +61,7 @@ p {
 
 @media (max-width: 767px) {
     .topnav {
-        width: 90%;
+        width: 80%;
         margin-top: 10px;
         left: 50%;
         transform: translateX(-50%);
