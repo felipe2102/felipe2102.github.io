@@ -10,6 +10,7 @@ body {
     margin: 0;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    background-color: #181825;
 }
 
 body::-webkit-scrollbar {
@@ -71,8 +72,6 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #181825;
-;
     padding-top: 80px;
 }
 
