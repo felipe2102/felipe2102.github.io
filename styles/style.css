@@ -131,5 +131,11 @@ p {
     }
     .content {
         padding-top: 80px;
+        inline-size: 90vw;
+        margin-block-end: 1em;
     }
+
+    .content #subtitle {
+        text-align: center;
+    } 
 }
