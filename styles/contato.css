@@ -34,7 +34,8 @@ label, input, textarea {
 
 .topnav {
     overflow: hidden;
-    background-color: #181825;
+    background-color: #18182599;
+    backdrop-filter: blur(8px);
     width: fit-content;
     border-radius: 15px;
     position: fixed;
