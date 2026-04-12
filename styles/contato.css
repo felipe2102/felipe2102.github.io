@@ -62,9 +62,25 @@ label, input, textarea {
     color: #11111b;
 }
 
+/* Primary content */
+
+.content {
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+}
+
+.content h1 {
+    font-size: 45px;
+}
+
+/* Responsiveness */
+
 @media (max-width: 767px) {
     .topnav {
-        width: 90%;
+        width: 80%;
+        background-color: #181825;
+        backdrop-filter: unset;
         margin-top: 10px;
         left: 50%;
         transform: translateX(-50%);
@@ -76,16 +92,7 @@ label, input, textarea {
         padding: 10px 0;
         font-size: 13px;
     }
-}
-
-/* Primary content */
-
-.content {
-    display: grid;
-    place-items: center;
-    padding-top: 50px;
-}
-
-.content h1 {
-    font-size: 45px;
+    .content {
+        padding-top: 200px;
+    }
 }

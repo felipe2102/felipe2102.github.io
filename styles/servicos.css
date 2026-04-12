@@ -49,21 +49,6 @@ body::-webkit-scrollbar {
     color: #11111b;
 }
 
-@media (max-width: 767px) {
-    .topnav {
-        width: 90%;
-        margin-top: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        text-align: center;
-    }
-
-    .topnav a {
-        display: block;
-        padding: 10px 0;
-        font-size: 13px;
-    }
-}
 
 /* Primary content */
 
@@ -86,4 +71,27 @@ body::-webkit-scrollbar {
 
 #servicos td {
     text-align: center;
+}
+
+/* Responsiveness */
+
+@media (max-width: 767px) {
+    .topnav {
+        width: 80%;
+        background-color: #181825;
+        backdrop-filter: unset;
+        margin-top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .topnav a {
+        display: block;
+        padding: 10px 0;
+        font-size: 13px;
+    }
+    .content {
+        padding-top: 200px;
+    }
 }
