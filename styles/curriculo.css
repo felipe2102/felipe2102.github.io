@@ -94,5 +94,12 @@ body::-webkit-scrollbar {
     }
     .content {
         padding-top: 220px;
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+    }
+
+    .content h2 {
+        margin-left: 10px;
     }
 }
