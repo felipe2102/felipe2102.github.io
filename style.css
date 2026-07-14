@@ -1,0 +1,32 @@
+body {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+.intro {
+    display: flex;
+    align-items: stretch;
+}
+
+.intro img {
+    width: 160px;
+    height: 160px;
+}
+
+.intro .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-left: 15px;
+}
+
+.info h1,
+.info h3,
+.info p {
+    margin: 0;
+}
