@@ -5,7 +5,7 @@
 }
 
 body{
-    background:#201b2e;
+    background:#181825;
     color:#fff;
     font-family:Consolas, monospace;
 }
@@ -49,7 +49,7 @@ header h3{
 }
 
 .info h2{
-    color:#d6c8ff;
+    color:#89b4fa;
     margin-top:5px;
     font-size:22px;
 }
@@ -57,7 +57,7 @@ header h3{
 .links{
     margin-top:20px;
     line-height:1.8;
-    color:#d08aa5;
+    color:#f38ba8;
 }
 
 hr{
@@ -81,21 +81,21 @@ main{
 }
 
 .sidebar img{
-    width:250px;
-    margin-bottom:20px;
+    width:220px;
+    margin-bottom:0px;
 }
 
 nav{
-    background:#2a2340;
-    width: 250px;
+    background:#313244;
+    width: 220px;
 }
 
 nav a{
     display:block;
-    padding:15px 20px;
+    padding: 10px;
     color:white;
     text-decoration:none;
-    border-bottom:1px solid #453b63;
+    border-bottom:1px solid #11111b;
 }
 
 nav a:hover{
@@ -103,5 +103,6 @@ nav a:hover{
 }
 
 nav .active{
-    background:#d34b67;
+    background:#c95f83;
+    color: black;
 }
