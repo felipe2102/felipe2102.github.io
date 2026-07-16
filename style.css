@@ -57,7 +57,11 @@ header h3{
 .links{
     margin-top:20px;
     line-height:1.8;
-    color:#f38ba8;
+    color:#fff;
+}
+
+.links a {
+    color: #f38ba8;
 }
 
 hr{
@@ -78,6 +82,10 @@ main{
 .content p{
     margin-bottom:20px;
     line-height:1.8;
+}
+
+.sidebar {
+    margin-left: auto;
 }
 
 .sidebar img{
